@@ -30,7 +30,7 @@ dependencies {
     compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
     compile group: 'org.yaml', name: 'snakeyaml', version: '1.25'
 
-    runtimeOnly('mysql:mysql-connector-java')
+    compile('mysql:mysql-connector-java')
 
     compileOnly('org.projectlombok:lombok:1.18.10')
     compileOnly "org.springframework.boot:spring-boot-configuration-processor"
